@@ -12,21 +12,22 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="5"
-        android:background="@color/verdesantos">
-    </View>
+        android:background="@drawable/texturaverde"></View>
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo_santos" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="5"
-        android:background="@color/white">
-    </View>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="5"
-        android:background="@color/verdesantos">
+        android:background="@drawable/texturaverde">
     </View>
     
 
